@@ -1,0 +1,77 @@
+@import 'tailwindcss';
+
+@theme {
+  --font-sans: 'Inter', sans-serif;
+  --font-serif: 'Georgia', serif;
+  --font-mono: 'Courier New', monospace;
+
+  --color-primary: #007bff;
+  --color-secondary: #6c757d;
+  --color-accent: #28a745;
+  --color-background-light: #f8f9fa;
+  --color-background-dark: #343a40;
+  --color-text-light: #212529;
+  --color-text-dark: #f8f9fa;
+}
+@layer base {
+  /* Establece estilos para el cuerpo de la página */
+  body {
+    @apply bg-background-light text-text-light font-sans;
+    font-feature-settings:
+      'liga' 1,
+      'calt' 1;
+  }
+
+  /* Configura estilos para enlaces */
+  a {
+    @apply text-primary hover:text-accent;
+  }
+
+  /* Aplica estilos para elementos de lista */
+  ul {
+    @apply list-disc pl-5;
+  }
+
+  /* Define estilos para encabezados */
+  h1 {
+    @apply text-3xl font-bold;
+  }
+  h2 {
+    @apply text-2xl font-semibold;
+  }
+  h3 {
+    @apply text-xl font-medium;
+  }
+  h4 {
+    @apply text-lg font-medium;
+  }
+  h5 {
+    @apply text-base font-medium;
+  }
+  h6 {
+    @apply text-sm font-medium;
+  }
+
+  /* Establece estilos para formularios */
+  input,
+  select,
+  textarea {
+    @apply border border-gray-300 rounded-md p-2;
+  }
+
+  /* Configura estilos para botones */
+  button {
+    @apply bg-primary text-white py-2 px-4 rounded-md hover:bg-accent;
+  }
+}
+
+/* Establece estilos para el modo oscuro */
+@layer base {
+  .dark {
+    --color-background-light: #343a40;
+    --color-text-light: #f8f9fa;
+    --color-primary: #17a2b8;
+    --color-secondary: #6c757d;
+    --color-accent: #28a745;
+  }
+}
