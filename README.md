@@ -2,13 +2,14 @@
 
 Otras teconologías usadas y configuradas cómo:
 
-- **Axios**, para las llamadas a la api
+- **Axios**, para las llamadas a la api.
 - **TankStack Query**, control de las llamadas.
 - **Zustand**, control del stado.
 - **Tailwind**, css.
 - **Prettier**, formateador de código.
 - **EsLint**, control de código.
-- **TypeScript**
+- **TypeScript**,
+- **Shadcn UI**, no instalado, recomendado.
 
 ---
 
