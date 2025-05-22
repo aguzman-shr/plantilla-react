@@ -1,54 +1,43 @@
 # React + TypeScript + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Otras teconologías usadas y configuradas cómo:
 
-Currently, two official plugins are available:
+- **Axios**, para las llamadas a la api
+- **TankStack Query**, control de las llamadas.
+- **Zustand**, control del stado.
+- **Tailwind**, css.
+- **Prettier**, formateador de código.
+- **EsLint**, control de código.
+- **TypeScript**
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## Screaming arquitecture
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+**_"If you look at a drawing of the architecture of your system, and it does not scream what the system does, then your architecture is wrong."_**
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+— Robert C. Martin
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+---
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+## Tener instalado
 
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
-```
+- Última versión de nodeJS. (Usada 24.0.2)
+- Bun (Builder, ejectur de scripts y obtención de paquetes)
+
+---
+
+## Recomendaciones de instalación
+
+- VSCODE
+  - Prettier (obligatorio)
+  - Auto Close Tag
+  - Auto Rename Tag
+  - Bracket Pair - Color DLW
+  - Color - HighLight
+  - Console Ninja
+  - ENV
+  - VS Code ES7+ React/Redux/React-Native/JS snippets
+  - Image preview
+  - Material Icon
+  - Tailwind CSS IntelliSense
