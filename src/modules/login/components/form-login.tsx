@@ -1,4 +1,3 @@
-import { api } from "@/infrastructure/http";
 import { ButtonSubmit } from "@/modules/core";
 import { useAuth } from "@/modules/core/hooks/use-auth";
 import { useState, type FormEvent } from "react";
