@@ -1,4 +1,4 @@
-import { useAuth } from "@/hooks/useAuth";
+import { useAuth } from "@/modules/core/hooks/use-auth";
 import PrivateRoutes from "@/routes/private/routes";
 import PublicRoutes from "@/routes/public/routes";
 

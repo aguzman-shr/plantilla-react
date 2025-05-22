@@ -1,6 +1,6 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-import Dashboard from "../../pages/Dashboard/Dashboard";
-import PageError from "@/pages/PageError/PageError";
+import Dashboard from "../../pages/dashboard/Dashboard";
+import PageError from "@/pages/page-error/PageError";
 
 export default function PrivateRoutes() {
 

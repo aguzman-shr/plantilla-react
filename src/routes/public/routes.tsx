@@ -1,6 +1,6 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
-import PageError from '@/pages/PageError/PageError'
-import Login from '@/pages/Login/Login'
+import PageError from '@/pages/page-error/PageError'
+import Login from '@/pages/login/login'
 
 export default function PublicRoutes() {
 
