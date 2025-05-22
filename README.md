@@ -28,7 +28,7 @@ En la explicación vemos que usa la carpeta features en lugar de modules. Al igu
 ## Tener instalado
 
 - Última versión de nodeJS. (Usada 24.0.2)
-- Bun (Builder, ejectur de scripts y obtención de paquetes)
+- Bun (Builder, ejectur de scripts y obtención de paquetes) `bun run dev || bun install xyz`
 
 ---
 
