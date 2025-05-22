@@ -15,9 +15,13 @@ Otras teconologías usadas y configuradas cómo:
 
 ## Screaming arquitecture
 
+[Explicación](https://dev.to/profydev/screaming-architecture-evolution-of-a-react-folder-structure-4g25#exit-group-by-features)
+
 **_"If you look at a drawing of the architecture of your system, and it does not scream what the system does, then your architecture is wrong."_**
 
 — Robert C. Martin
+
+En la explicación vemos que usa la carpeta features en lugar de modules. Al igual, el nombrado de archivos no será xyz.component.tsx, se llamará tal cuál ya que será diferenciado por el nombre y de donde viene.
 
 ---
 
